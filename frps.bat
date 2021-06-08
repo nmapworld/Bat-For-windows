@@ -1,0 +1,1 @@
+D:\frp\frps.exe -c D:\frp\frps.ini>%temp%\frp.log

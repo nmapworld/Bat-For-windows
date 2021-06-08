@@ -1,0 +1,30 @@
+::workgroup
+
+date /t & time /t
+whoami /user
+rem wmic useraccount list
+qwinsta
+echo %PROCESSOR_ARCHITECTURE%
+ipconfig /all
+systeminfo
+rem wmic desktop
+rem wmic startup
+rem wmic /namespace:\\root\securitycenter2 path antivirusproduct get displayname,pathToSignedReportingExe,productState
+rem wmic logicaldisk
+rem wmic diskdrive
+net use
+arp -a
+route print -4
+netstat -ano
+tasklist /svc /fo csv
+::tasklist /m
+rem wmic service
+schtasks /query
+::pause
+
+::AD
+
+net time /domain
+net group "domain admins"
+dsquery server
+nltest  /domain_trusts /all_trusts
