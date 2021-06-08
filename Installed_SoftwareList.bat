@@ -1,2 +1,5 @@
-reg query HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall /f DisplayName /t REG_SZ /s |findstr REG_SZ>%userprofile%\desktop\software.txt
-reg query HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall /f DisplayName /t REG_SZ /s |findstr REG_SZ>>%userprofile%\desktop\software.txt
+set filename=software.txt
+echo 64Bits:>%userprofile%\desktop\%filename%
+reg query HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall /f DisplayName /t REG_SZ /s |findstr REG_SZ>>%userprofile%\desktop\%filename%
+echo 32Bits:>>%userprofile%\desktop\%filename%
+reg query HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall /f DisplayName /t REG_SZ /s |findstr REG_SZ>>%userprofile%\desktop\%filename%
