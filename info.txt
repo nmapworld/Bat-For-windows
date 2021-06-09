@@ -27,4 +27,5 @@ schtasks /query
 net time /domain
 net group "domain admins"
 dsquery server
+dsquery server -s 192.168.1.1 -u Domain\Username -p Password -limit 0
 nltest  /domain_trusts /all_trusts
