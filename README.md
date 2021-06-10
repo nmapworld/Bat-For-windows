@@ -11,4 +11,4 @@
 6.KillPUBG.bat :关闭PUBG   
 7.chinese_INPUIT.bat :修复中文输入法切换问题  
 8.ChangePort_RDP.bat :修改windows远程桌面端口  
-9.WifiPassword_clear.bat :查看windows连接过wifi的密码
+9.WifiPassword_clear.bat :查看windows连接过wifi的密码(WIFI名中包含空格暂不支持查询)
