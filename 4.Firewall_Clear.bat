@@ -1,3 +1,6 @@
+@echo off
+echo "Will clear all rule in Advfirewall"
+pause
 netsh advfirewall set allprofiles state on
 netsh advfirewall firewall delete rule  name=all
 netsh advfirewall set allprofiles firewallpolicy blockinbound,allowoutbound
