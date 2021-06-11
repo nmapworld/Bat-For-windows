@@ -1,7 +1,8 @@
 @echo off
 echo "will Disable Defender"
 pause
-rem Disable Defender
+@REM  Disable Defender
+@REM  Fix Windows 10 20H2(19042)
 REG ADD HKLM\SOFTWARE\Microsoft\Windows" "Defender /v DisableAntiVirus /t REG_DWORD /d 1 /f
 REG ADD HKLM\SOFTWARE\Microsoft\Windows" "Defender /v DisableAntiSpyware /t REG_DWORD /d 1 /f
 REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows" "Defender /v ServiceKeepAlive /t REG_DWORD /d  0 /f
