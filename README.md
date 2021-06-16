@@ -13,8 +13,8 @@
 8.ChangePort_RDP.bat :修改windows远程桌面端口  
 9.WifiPassword_clear.bat :查看windows连接过wifi的密码(WIFI名中包含空格暂不支持查询)  
 10.EnglishSystem_Chinese_Error :修复安装英文版Windows操作系统后，安装中文软件或打开中文文档、程序时显示乱码  
-11.StartUp_Clear.bat :清理系统开启启动项
-20.Init_Windows10_Dev.bat ：Win10初始化设置（测试环境）
+11.StartUp_Clear.bat :清理系统开启启动项  
+20.Init_Windows10_Dev.bat ：Win10初始化设置（测试环境)  
 
 ## Tips
 脚本运行所产生的文件均在当前用户桌面，方便查看和删除
