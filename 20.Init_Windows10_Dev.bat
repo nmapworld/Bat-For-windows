@@ -19,7 +19,7 @@ net share ADMIN$ /delete
 
 echo "--------------------------------Set DHCP with DNS----------------------------------------"
 netsh interface ip set address name="Ethernet0" source=dhcp
-netsh interface ip set dnsserver name="Ethernet0" static 8.8.8.8 primary
+::netsh interface ip set dnsserver name="Ethernet0" static 8.8.8.8 primary
 ipconfig /release
 ipconfig /renew
 
