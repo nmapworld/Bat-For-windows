@@ -49,8 +49,8 @@ for %%a in (%list%) do (
 )
 
 echo "---------------------------------- Clear Startup-------------------------------------------"
-whoami /user /fo list |findstr SID >%tmp%/n.txt
-for /f "tokens=2" %%i in  (%tmp%/n.txt)  do REG DELETE HKU\%%i\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /f
+whoami /user /fo list |findstr SID >%tmp%\n.txt
+for /f "tokens=2" %%i in  (%tmp%\n.txt)  do REG DELETE HKU\%%i\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /f
 REG DELETE HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /f
 
 del /S /Q /F %ALLUSERSPROFILE%\Microsoft\Windows\Start" "Menu\Programs\StartUp\*
