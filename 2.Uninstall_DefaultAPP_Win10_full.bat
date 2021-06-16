@@ -8,3 +8,4 @@ for %%a in (%list%) do (
     echo %%a
     PowerShell -Command "& {Get-AppxPackage -alluser Microsoft.%%a | Remove-AppxPackage}"
 )
+pause

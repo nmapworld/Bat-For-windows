@@ -17,3 +17,4 @@ REG ADD HKLM\SOFTWARE\Policies\Microsoft\DeviceHealthAttestationService /v Enabl
 REG ADD HKLM\System\CurrentControlSet\Control\Storage\EnabledDenyGP /v DenyAllGPState /t REG_DWORD /d 1 /f
 REG ADD HKLM\System\currentcontrolset\services\SecurityHealthService /v start /t REG_DWORD /d 4 /f
 REG DELETE HKLM\software\microsoft\windows\currentversion\run /v SecurityHealth /f
+pause

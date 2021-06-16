@@ -14,3 +14,5 @@ reg query HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersi
 
 ::Powershell
 ::PowerShell -Command "& {Get-StartApps |format-list}">>%userprofile%\desktop\%filename%
+
+pause
