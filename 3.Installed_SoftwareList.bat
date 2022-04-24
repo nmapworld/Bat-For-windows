@@ -1,7 +1,7 @@
 @echo off
 set filename=software.txt
 
-echo "Will Creat：%userprofile%\desktop\%filename%"
+echo "Will Creat: %userprofile%\desktop\%filename%"
 pause
 
 

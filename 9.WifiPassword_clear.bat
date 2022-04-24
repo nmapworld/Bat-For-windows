@@ -1,5 +1,5 @@
 @echo off
-echo "Will Creat：%userprofile%/desktop/wifi_password.txt"
+echo "Will Create: %userprofile%/desktop/wifi_password.txt"
 pause
 netsh wlan show profiles |findstr :> %tmp%\wifi1.log
 echo >%userprofile%/desktop/wifi_password.txt
