@@ -8,11 +8,11 @@
 | <kbd>WIN</kbd>+<kbd>Q</kbd> | 搜索 |
 | <kbd>WIN</kbd>+<kbd>W</kbd> | 打开小组件 |
 | <kbd>WIN</kbd>+<kbd>E</kbd> | 打开文件管理器 |
-| <kbd>WIN</kbd>+<kbd>E</kbd> | 打开文件管理器 |
+| <kbd>WIN</kbd>+<kbd>R</kbd> | 打开运行 |
 | <kbd>WIN</kbd>+<kbd>T</kbd> | 切换到任务栏 |
 | <kbd>WIN</kbd>+<kbd>U</kbd> | UI控制面板->辅助 |
 | <kbd>WIN</kbd>+<kbd>I</kbd> | UI控制面板->系统 |
-| <kbd>WIN</kbd>+<kbd>P</kbd> | 投影 |
+| <kbd>WIN</kbd>+<kbd>P</kbd> | 投影模式 |
 | <kbd>WIN</kbd>+<kbd>A</kbd> | 控制中心 |
 | <kbd>WIN</kbd>+<kbd>S</kbd> | 搜索 |
 | <kbd>WIN</kbd>+<kbd>D</kbd> | 显示桌面 |
