@@ -19,6 +19,7 @@ netsh advfirewall firewall add rule  name="UDP_UDP" dir=in protocol=udp localpor
 @REM Restart Service
 net stop TermService /y
 net start TermService
-choice /t 5 /d y /n >nul
+@REM choice /t 5 /d y /n >nul
+timeout /T 5
 netstat -ano |findstr %PortNumber%
 pause
